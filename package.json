@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.14",
+    "@tailwindcss/postcss": "^4.0.14",
+    "@tailwindcss/vite": "^4.0.14",
+    "tailwindcss": "^4.0.14",
+    "vite-plugin-live-reload": "^3.0.4",
+    "vite-plugin-php": "^2.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "vite preview",
+    "dev": "vite",
+    "build": "vite build"
+  }
+}
