@@ -1,0 +1,25 @@
+{
+  "name": "emujints/et-saas-vanilla-mvc-2025-s1",
+  "description": "Vanilla PHP MVC Framework",
+  "type": "project",
+  "version": "0.1",
+  "time": "12-03-2025",
+  "keywords": ["mvc", "framework", "vanilla", "demo", "mysql", "mariadb"],
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors":[{
+    "name": "Emujin Tsengelbayar",
+    "email": "20126220@tafe.wa.edu.au",
+    "homepage": "https://emujints.github.io",
+    "role": "Developer"
+  }],
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Framework\\": "Framework/",
+      "App\\": "App/"
+    }
+  }
+}
